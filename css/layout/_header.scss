@@ -2,7 +2,7 @@ header{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url('../../img/home-header.jpg') center/cover;
+    background: url('../img/home-header.jpg') center/cover;
     &::before{
         content: '';
         background: rgba($color: #000000, $alpha: 0.5);
