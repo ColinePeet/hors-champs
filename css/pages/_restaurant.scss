@@ -1,0 +1,189 @@
+
+#page{
+.le-chef{
+    h2{
+        margin: 100px 0 10px 0;
+
+    }
+    p{
+        margin-top: 50px;
+    }
+}
+.prod{
+    
+    justify-content: center;
+    .section-flex{
+        align-items: center;
+    }
+    h2{
+        text-align: center;
+        margin: 20px 0 60px 0;
+    }
+
+}
+.menu{
+    position: relative;
+    h2{
+        text-align: center;
+        margin: 20px 0 60px 0;
+    }
+}
+.flex-menu{
+    display: flex;
+    .bg-menu{
+        width: 50%;
+        height: 100%;
+        background: url('../../img/menu.jpg') center/cover;
+    }
+    .menu-texte{
+        width: 50%;
+        height: 100%;
+        background: rgb(245, 237, 228);  
+        background: #F3F1EF;
+        padding: 0 90px;  
+        text-align: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h3{
+            color: rgb(104, 92, 79);
+            font-size: 1.6em;
+            margin-bottom: 20px;
+        }
+        h4{
+            text-transform: uppercase;
+            font-size: 0.8em;
+            margin-top: 40px;
+        }
+        p{
+            font-size: 0.9em;
+            margin: 15px 0;
+        }
+        hr{
+            border: .5px solid rgb(94, 82, 69);
+            width: 30px;
+        }
+    }
+}
+
+
+.reservation{
+    h2{
+        margin-bottom: 60px;
+    }
+    .flex{
+        display: flex;
+        justify-content: space-between;
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 48%;
+            label{
+                font-weight: 500;
+                font-family: 'raleway', sans-serif;
+            }
+            input{
+                width: 100%;
+                border-radius: 3px;
+                border: 1px solid lightgray;
+                padding: 6px;
+                margin: 4px 0 12px 0;
+            }
+        }
+    }
+    .submit{
+        background: $color;
+        color: white;
+        font-weight: 500;
+        padding: 8px 30px;
+        border-radius: 3px;
+        border: none;
+        margin-top: 20px;
+        font-family: 'raleway', sans-serif;
+    }
+}
+
+.presse{
+    background: #F3F1EF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 120px 0;
+    h2{
+        text-align: center;
+        padding: 60px 0 60px 0;
+    }
+    .article{
+        //background: white;
+        border-radius: 3px;
+        display: flex;
+        justify-content: space-between;
+        height: 270px;
+        margin-bottom: 50px;
+        .article-bg{
+            background: url('../../img/resto4.jpg') center/cover;
+            width: 50%;
+            height: 100%;
+        }
+        .bg2{
+            background: url('../../img/resto1.jpg') center/cover;
+        }
+        .txt{
+            width: 50%;
+            padding: 20px 35px;
+            text-align: left;
+            h5{
+                font-family: 'raleway', sans-serif;
+                font-size: 1.3em;
+                margin: 0;
+                margin-top: 5px;
+            }
+            p{
+                font-size: 1em;
+            }
+            a{
+                color: black;
+                font-weight: 500;
+                font-family: 'raleway', sans-serif;
+                font-size: 1em;
+                text-decoration: underline;
+            }
+        }
+        hr{
+            border: .5px solid lightgrey;
+            margin: 0;
+            margin-top: 30px;
+        }
+        .article-info{
+            display: flex;
+            box-sizing: border-box;
+            justify-content: space-between;
+            align-items: center;       
+            p{
+                font-size: 0.9em;
+                font-family: 'raleway', sans-serif;
+                font-weight: bold;
+            }
+        }
+    }
+}
+.more-button{
+    background: $color;
+    color: white;
+    font-weight: 500;
+    padding: 8px 30px;
+    border-radius: 3px;
+    font-family: 'raleway', sans-serif;
+    display: inline-block;
+    cursor: pointer;
+}
+.instagram{
+    padding: 150px 0 0 0;
+}
+
+
+
+
+}

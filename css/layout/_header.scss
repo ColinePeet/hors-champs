@@ -1,0 +1,78 @@
+header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../../img/home-header.jpg') center/cover;
+    &::before{
+        content: '';
+        background: rgba($color: #000000, $alpha: 0.5);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    // homepage
+    .logo-home{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+    }
+}
+
+// header inside pages 
+.page-header{
+    nav{
+        position: relative;
+        top: 30px;
+        display: flex;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            padding: 0;
+            li{
+                list-style: none;
+                a{
+                    color: white;
+                    font-weight: 500;
+                }
+            }
+        }
+        .left{
+            a{
+                padding-right: 35px;
+            }
+        }
+        .right{
+            a{
+                padding-left: 35px;
+            }
+        }
+        .logo{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%)
+        }
+        img{width: 160px}
+    }
+    h1{
+        position: absolute;
+        color: white;
+        font-size: 6em;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 200px;
+    }
+    .page-links{
+        position: absolute;
+        bottom: 120px;        
+        left: 50%;
+        transform: translateX(-50%);
+        a{
+            border: 2px solid $color;
+            padding: 8px 15px;
+            font-size: 1.1em;
+            margin: 0 10px;
+        }
+    }
+}
